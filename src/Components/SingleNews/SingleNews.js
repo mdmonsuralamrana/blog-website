@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Blog.css';
-import NavigationBar from '../NavigationBar/NavigationBar';
+import './SingleNews.css';
 
-const Blog = ({ news }) => {
+const SingleNews = ({ news }) => {
     return (
-        <div className="col-md-6">
-            <img className="img-fluid postImg" src={news.img} alt="" />
+        <div className="news-box col-md-4">
+            <img className="img-fluid postImg" src={news.image} alt="" />
             <Link to={`/blog/${news.id}`}>
                 <h2 className="postTitle">{news.headline}</h2>
             </Link>
@@ -16,4 +15,4 @@ const Blog = ({ news }) => {
     );
 };
 
-export default Blog;
+export default SingleNews;

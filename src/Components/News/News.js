@@ -1,6 +1,6 @@
 import React from 'react';
 import fakeData from '../../FakeData/FakeData.json';
-import Blog from '../Blog/Blog';
+import SingleNews from '../SingleNews/SingleNews';
 
 const News = () => {
     return (
@@ -10,9 +10,9 @@ const News = () => {
             </div>
             <div className="container text-center">
                 <div className="row" data-aos="zoom-in-down">
-                    
+
                     {
-                        fakeData.map(news => <Blog key={fakeData.id} news={news}></Blog>)
+                        fakeData.map(news => <SingleNews key={fakeData.id} news={news}></SingleNews>)
                     }
                 </div>
             </div>
