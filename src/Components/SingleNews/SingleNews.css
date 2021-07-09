@@ -1,35 +1,39 @@
- 
-  .postImg {
-    border-radius: 7px;
-  }
-  
-  .news-box {
-    border: 1px solid #6c5ce7;
-    border-radius: 5px;
-  }
+ .postImg {
+   border-radius: 7px;
+ }
 
-  .postTitle {
-    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    margin-top: 15px;
-    cursor: pointer;
-  }
-  
-  .postDate {
-    font-family: "Lora", serif;
-    font-style: italic;
-    font-size: 13px;
-    font-weight: 400;
-    color: #999999;
-    margin-top: 15px;
-  }
+ .news-box {
+   border       : 1px solid #6c5ce7;
+   border-radius: 5px;
+   margin       : 3px;
+ }
 
-  .postDesc {
-    font-family: "Varela Round", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #444444;
-    margin-top: 15px;
-  }
+ .news-box a {
+   text-decoration: none;
+ }
+
+ .postTitle {
+   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+   font-size  : 24px;
+   font-weight: 900;
+   margin-top : 15px;
+   cursor     : pointer;
+ }
+
+ .postDate {
+   font-family: "Lora", serif;
+   font-style : italic;
+   font-size  : 13px;
+   font-weight: 400;
+   color      : #999999;
+   margin-top : 15px;
+ }
+
+ .postDesc {
+   font-family: "Varela Round", Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size  : 14px;
+   line-height: 24px;
+   color      : #444444;
+   margin-top : 15px;
+ }
